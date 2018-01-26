@@ -5,6 +5,8 @@
  */
 package subirlibreriaquique;
 
+import com.dialogos.quique.Dialogos;
+
 /**
  *
  * @author quique
@@ -15,7 +17,11 @@ public class SubirLibreriaQuique {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        
+        
+        Dialogos.meterDato(null);
+        Dialogos.recibirMensaje(null);
+        Dialogos.sioNO(null, null);
     }
     
 }
